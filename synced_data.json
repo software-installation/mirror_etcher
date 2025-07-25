@@ -95,6 +95,10 @@
     "6346336": {
       "tag_name": "v1.0.0-rc.4",
       "fully_synced_at": "2025-07-25 07:35:30.314931"
+    },
+    "6346340": {
+      "tag_name": "v1.0.0-rc.5",
+      "fully_synced_at": "2025-07-25 07:36:36.947524"
     }
   },
   "assets": {
@@ -1081,6 +1085,50 @@
         "updated_at": "2025-07-25T07:35:30+00:00",
         "synced_at": "2025-07-25 07:35:30.301163"
       }
+    },
+    "6346340": {
+      "Etcher-1.0.0-rc.5-darwin-x64.dmg_66166144": {
+        "name": "Etcher-1.0.0-rc.5-darwin-x64.dmg",
+        "size": 66166144,
+        "updated_at": "2025-07-25T07:35:46+00:00",
+        "synced_at": "2025-07-25 07:35:46.658185"
+      },
+      "Etcher-1.0.0-rc.5-darwin-x64.zip_155634892": {
+        "name": "Etcher-1.0.0-rc.5-darwin-x64.zip",
+        "size": 155634892,
+        "updated_at": "2025-07-25T07:35:59+00:00",
+        "synced_at": "2025-07-25 07:35:59.328700"
+      },
+      "Etcher-1.0.0-rc.5-linux-x64.zip_67636398": {
+        "name": "Etcher-1.0.0-rc.5-linux-x64.zip",
+        "size": 67636398,
+        "updated_at": "2025-07-25T07:36:05+00:00",
+        "synced_at": "2025-07-25 07:36:06.135165"
+      },
+      "Etcher-1.0.0-rc.5-linux-x86.zip_70029862": {
+        "name": "Etcher-1.0.0-rc.5-linux-x86.zip",
+        "size": 70029862,
+        "updated_at": "2025-07-25T07:36:14+00:00",
+        "synced_at": "2025-07-25 07:36:14.490264"
+      },
+      "Etcher-1.0.0-rc.5-win32-x64.exe_75229672": {
+        "name": "Etcher-1.0.0-rc.5-win32-x64.exe",
+        "size": 75229672,
+        "updated_at": "2025-07-25T07:36:22+00:00",
+        "synced_at": "2025-07-25 07:36:22.525210"
+      },
+      "Etcher-1.0.0-rc.5-win32-x64.zip_74644512": {
+        "name": "Etcher-1.0.0-rc.5-win32-x64.zip",
+        "size": 74644512,
+        "updated_at": "2025-07-25T07:36:29+00:00",
+        "synced_at": "2025-07-25 07:36:30.137864"
+      },
+      "Etcher-1.0.0-rc.5-win32-x86.exe_66014312": {
+        "name": "Etcher-1.0.0-rc.5-win32-x86.exe",
+        "size": 66014312,
+        "updated_at": "2025-07-25T07:36:36+00:00",
+        "synced_at": "2025-07-25 07:36:36.932936"
+      }
     }
   },
   "source_codes": {
@@ -1322,6 +1370,16 @@
       "SourceCode_v1.0.0-rc.4.tar.gz": {
         "exists": true,
         "synced_at": "2025-07-25 07:34:28.217861"
+      }
+    },
+    "v1.0.0-rc.5": {
+      "SourceCode_v1.0.0-rc.5.zip": {
+        "exists": true,
+        "synced_at": "2025-07-25 07:35:39.704966"
+      },
+      "SourceCode_v1.0.0-rc.5.tar.gz": {
+        "exists": true,
+        "synced_at": "2025-07-25 07:35:39.707055"
       }
     }
   }
