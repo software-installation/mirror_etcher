@@ -367,6 +367,10 @@
     "21931729": {
       "tag_name": "v1.5.66",
       "fully_synced_at": "2025-07-25 10:17:41.653356"
+    },
+    "22014669": {
+      "tag_name": "v1.5.67",
+      "fully_synced_at": "2025-07-25 10:20:06.686978"
     }
   },
   "assets": {
@@ -9452,6 +9456,122 @@
         "updated_at": "2025-07-25T10:20:06+00:00",
         "synced_at": "2025-07-25 10:20:06.672875"
       }
+    },
+    "22057154": {
+      "balena-etcher-electron-1.5.68-linux-ia32.zip_95565585": {
+        "name": "balena-etcher-electron-1.5.68-linux-ia32.zip",
+        "size": 95565585,
+        "updated_at": "2025-07-25T10:20:24+00:00",
+        "synced_at": "2025-07-25 10:20:25.120373"
+      },
+      "balena-etcher-electron-1.5.68-linux-x64.zip_94934471": {
+        "name": "balena-etcher-electron-1.5.68-linux-x64.zip",
+        "size": 94934471,
+        "updated_at": "2025-07-25T10:20:34+00:00",
+        "synced_at": "2025-07-25 10:20:34.632066"
+      },
+      "balena-etcher-electron-1.5.68.i686.rpm_63786676": {
+        "name": "balena-etcher-electron-1.5.68.i686.rpm",
+        "size": 63786676,
+        "updated_at": "2025-07-25T10:20:42+00:00",
+        "synced_at": "2025-07-25 10:20:42.809640"
+      },
+      "balena-etcher-electron-1.5.68.x86_64.rpm_62234380": {
+        "name": "balena-etcher-electron-1.5.68.x86_64.rpm",
+        "size": 62234380,
+        "updated_at": "2025-07-25T10:20:49+00:00",
+        "synced_at": "2025-07-25 10:20:49.791219"
+      },
+      "balena-etcher-electron_1.5.68_amd64.deb_61822008": {
+        "name": "balena-etcher-electron_1.5.68_amd64.deb",
+        "size": 61822008,
+        "updated_at": "2025-07-25T10:20:56+00:00",
+        "synced_at": "2025-07-25 10:20:56.778032"
+      },
+      "balena-etcher-electron_1.5.68_i386.deb_62794296": {
+        "name": "balena-etcher-electron_1.5.68_i386.deb",
+        "size": 62794296,
+        "updated_at": "2025-07-25T10:21:03+00:00",
+        "synced_at": "2025-07-25 10:21:03.806304"
+      },
+      "balenaEtcher-1.5.68-ia32.AppImage_96273817": {
+        "name": "balenaEtcher-1.5.68-ia32.AppImage",
+        "size": 96273817,
+        "updated_at": "2025-07-25T10:21:13+00:00",
+        "synced_at": "2025-07-25 10:21:13.305179"
+      },
+      "balenaEtcher-1.5.68-mac.zip_105402526": {
+        "name": "balenaEtcher-1.5.68-mac.zip",
+        "size": 105402526,
+        "updated_at": "2025-07-25T10:21:23+00:00",
+        "synced_at": "2025-07-25 10:21:24.020618"
+      },
+      "balenaEtcher-1.5.68-x64.AppImage_95390571": {
+        "name": "balenaEtcher-1.5.68-x64.AppImage",
+        "size": 95390571,
+        "updated_at": "2025-07-25T10:21:34+00:00",
+        "synced_at": "2025-07-25 10:21:34.217171"
+      },
+      "balenaEtcher-1.5.68.dmg_98758890": {
+        "name": "balenaEtcher-1.5.68.dmg",
+        "size": 98758890,
+        "updated_at": "2025-07-25T10:21:43+00:00",
+        "synced_at": "2025-07-25 10:21:43.492177"
+      },
+      "balenaEtcher-1.5.68.dmg.blockmap_102412": {
+        "name": "balenaEtcher-1.5.68.dmg.blockmap",
+        "size": 102412,
+        "updated_at": "2025-07-25T10:21:46+00:00",
+        "synced_at": "2025-07-25 10:21:46.364687"
+      },
+      "balenaEtcher-Portable-1.5.68.exe_120793536": {
+        "name": "balenaEtcher-Portable-1.5.68.exe",
+        "size": 120793536,
+        "updated_at": "2025-07-25T10:21:57+00:00",
+        "synced_at": "2025-07-25 10:21:57.237169"
+      },
+      "balenaEtcher-Setup-1.5.68.exe_136079328": {
+        "name": "balenaEtcher-Setup-1.5.68.exe",
+        "size": 136079328,
+        "updated_at": "2025-07-25T10:22:08+00:00",
+        "synced_at": "2025-07-25 10:22:08.522040"
+      },
+      "balenaEtcher-Setup-1.5.68.exe.blockmap_140666": {
+        "name": "balenaEtcher-Setup-1.5.68.exe.blockmap",
+        "size": 140666,
+        "updated_at": "2025-07-25T10:22:11+00:00",
+        "synced_at": "2025-07-25 10:22:11.432993"
+      },
+      "builder-effective-config.yaml_3607": {
+        "name": "builder-effective-config.yaml",
+        "size": 3607,
+        "updated_at": "2025-07-25T10:22:14+00:00",
+        "synced_at": "2025-07-25 10:22:14.324539"
+      },
+      "latest-linux-ia32.yml_407": {
+        "name": "latest-linux-ia32.yml",
+        "size": 407,
+        "updated_at": "2025-07-25T10:22:16+00:00",
+        "synced_at": "2025-07-25 10:22:17.171774"
+      },
+      "latest-linux.yml_405": {
+        "name": "latest-linux.yml",
+        "size": 405,
+        "updated_at": "2025-07-25T10:22:20+00:00",
+        "synced_at": "2025-07-25 10:22:20.523894"
+      },
+      "latest-mac.yml_396": {
+        "name": "latest-mac.yml",
+        "size": 396,
+        "updated_at": "2025-07-25T10:22:23+00:00",
+        "synced_at": "2025-07-25 10:22:23.332052"
+      },
+      "latest.yml_375": {
+        "name": "latest.yml",
+        "size": 375,
+        "updated_at": "2025-07-25T10:22:25+00:00",
+        "synced_at": "2025-07-25 10:22:26.109618"
+      }
     }
   },
   "source_codes": {
@@ -10383,6 +10503,16 @@
       "SourceCode_v1.5.67.tar.gz": {
         "exists": true,
         "synced_at": "2025-07-25 10:17:49.728303"
+      }
+    },
+    "v1.5.68": {
+      "SourceCode_v1.5.68.zip": {
+        "exists": true,
+        "synced_at": "2025-07-25 10:20:14.994449"
+      },
+      "SourceCode_v1.5.68.tar.gz": {
+        "exists": true,
+        "synced_at": "2025-07-25 10:20:15.007941"
       }
     }
   }
