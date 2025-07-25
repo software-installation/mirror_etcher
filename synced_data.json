@@ -627,6 +627,10 @@
     "65071265": {
       "tag_name": "v1.7.9",
       "fully_synced_at": "2025-07-25 12:45:59.434810"
+    },
+    "82284142": {
+      "tag_name": "v1.7.10",
+      "fully_synced_at": "2025-07-25 12:47:40.453912"
     }
   },
   "assets": {
@@ -16726,6 +16730,86 @@
         "updated_at": "2025-07-25T12:45:59+00:00",
         "synced_at": "2025-07-25 12:45:59.411870"
       }
+    },
+    "82284142": {
+      "balena-etcher-1.7.10.x86_64.rpm_67515988": {
+        "name": "balena-etcher-1.7.10.x86_64.rpm",
+        "size": 67515988,
+        "updated_at": "2025-07-25T12:46:14+00:00",
+        "synced_at": "2025-07-25 12:46:14.281033"
+      },
+      "balena-etcher_1.7.10_amd64.deb_86712418": {
+        "name": "balena-etcher_1.7.10_amd64.deb",
+        "size": 86712418,
+        "updated_at": "2025-07-25T12:46:23+00:00",
+        "synced_at": "2025-07-25 12:46:23.373248"
+      },
+      "balenaEtcher-1.7.10-ia32-win.zip_94297065": {
+        "name": "balenaEtcher-1.7.10-ia32-win.zip",
+        "size": 94297065,
+        "updated_at": "2025-07-25T12:46:33+00:00",
+        "synced_at": "2025-07-25 12:46:33.710044"
+      },
+      "balenaEtcher-1.7.10-win.zip_98634328": {
+        "name": "balenaEtcher-1.7.10-win.zip",
+        "size": 98634328,
+        "updated_at": "2025-07-25T12:46:43+00:00",
+        "synced_at": "2025-07-25 12:46:43.836074"
+      },
+      "balenaEtcher-1.7.10-x64.AppImage_95992479": {
+        "name": "balenaEtcher-1.7.10-x64.AppImage",
+        "size": 95992479,
+        "updated_at": "2025-07-25T12:46:53+00:00",
+        "synced_at": "2025-07-25 12:46:54.072657"
+      },
+      "balenaEtcher-1.7.10.dmg_97501378": {
+        "name": "balenaEtcher-1.7.10.dmg",
+        "size": 97501378,
+        "updated_at": "2025-07-25T12:47:03+00:00",
+        "synced_at": "2025-07-25 12:47:03.405265"
+      },
+      "balenaEtcher-1.7.10.dmg.blockmap_102544": {
+        "name": "balenaEtcher-1.7.10.dmg.blockmap",
+        "size": 102544,
+        "updated_at": "2025-07-25T12:47:06+00:00",
+        "synced_at": "2025-07-25 12:47:06.244962"
+      },
+      "balenaEtcher-Portable-1.7.10.exe_129509896": {
+        "name": "balenaEtcher-Portable-1.7.10.exe",
+        "size": 129509896,
+        "updated_at": "2025-07-25T12:47:17+00:00",
+        "synced_at": "2025-07-25 12:47:17.834568"
+      },
+      "balenaEtcher-Setup-1.7.10.exe_129707944": {
+        "name": "balenaEtcher-Setup-1.7.10.exe",
+        "size": 129707944,
+        "updated_at": "2025-07-25T12:47:28+00:00",
+        "synced_at": "2025-07-25 12:47:29.114963"
+      },
+      "balenaEtcher-Setup-1.7.10.exe.blockmap_133870": {
+        "name": "balenaEtcher-Setup-1.7.10.exe.blockmap",
+        "size": 133870,
+        "updated_at": "2025-07-25T12:47:31+00:00",
+        "synced_at": "2025-07-25 12:47:31.967457"
+      },
+      "latest-linux.yml_411": {
+        "name": "latest-linux.yml",
+        "size": 411,
+        "updated_at": "2025-07-25T12:47:34+00:00",
+        "synced_at": "2025-07-25 12:47:34.788098"
+      },
+      "latest-mac.yml_368": {
+        "name": "latest-mac.yml",
+        "size": 368,
+        "updated_at": "2025-07-25T12:47:37+00:00",
+        "synced_at": "2025-07-25 12:47:37.623939"
+      },
+      "latest.yml_381": {
+        "name": "latest.yml",
+        "size": 381,
+        "updated_at": "2025-07-25T12:47:40+00:00",
+        "synced_at": "2025-07-25 12:47:40.430561"
+      }
     }
   },
   "source_codes": {
@@ -18297,6 +18381,16 @@
       "SourceCode_v1.7.9.tar.gz": {
         "exists": true,
         "synced_at": "2025-07-25 12:43:52.627106"
+      }
+    },
+    "v1.7.10": {
+      "SourceCode_v1.7.10.zip": {
+        "exists": true,
+        "synced_at": "2025-07-25 12:46:05.670815"
+      },
+      "SourceCode_v1.7.10.tar.gz": {
+        "exists": true,
+        "synced_at": "2025-07-25 12:46:05.694204"
       }
     }
   }
