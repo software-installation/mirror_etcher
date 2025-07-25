@@ -1,9 +1,8 @@
-# .github/workflows/mirror.yml
 name: 同步balena-io/etcher
 
 on:
   schedule:
-    - cron: '0 6 */2 * *'  # 每天12:00运行一次
+    - cron: '0 6 */2 * *'  # 每2天6点运行
   workflow_dispatch:     # 允许手动触发
 
 jobs:
@@ -28,41 +27,38 @@ jobs:
       
       - name: 验证环境变量
         run: |
-          # 检查SOURCE_REPO是否设置
           if [ -z "$SOURCE_REPO" ]; then
             echo "错误: SOURCE_REPO未设置，请检查Secrets"
             exit 1
           fi
           
-          # 为TARGET_REPO设置默认值（当前仓库）
           if [ -z "$TARGET_REPO" ]; then
             echo "警告: TARGET_REPO未设置，将使用当前仓库作为目标"
-            export TARGET_REPO="${GITHUB_REPOSITORY}"  # GITHUB_REPOSITORY是Actions内置变量，值为当前仓库"用户名/仓库名"
+            export TARGET_REPO="${GITHUB_REPOSITORY}"
             echo "TARGET_REPO已自动设置为: $TARGET_REPO"
           fi
           
-          # 打印最终使用的仓库信息（方便调试）
           echo "源仓库: $SOURCE_REPO"
           echo "目标仓库: $TARGET_REPO"
         env:
           SOURCE_REPO: ${{ secrets.SOURCE_REPO }}
           TARGET_REPO: ${{ secrets.TARGET_REPO }}
-          GITHUB_REPOSITORY: ${{ github.repository }}  # 内置变量，当前仓库"用户名/仓库名"
+          GITHUB_REPOSITORY: ${{ github.repository }}
       
       - name: 检查更新并同步
         env:
           SOURCE_REPO: ${{ secrets.SOURCE_REPO }}
-          TARGET_REPO: ${{ secrets.TARGET_REPO || github.repository }}  # 若TARGET_REPO未设置，使用当前仓库
+          TARGET_REPO: ${{ secrets.TARGET_REPO || github.repository }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SOURCE_GITHUB_TOKEN: ${{ secrets.SOURCE_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
         run: |
-          python mirror_github_releases.py
+          python mirror_github_releases.py  # 执行指定的Python文件
       
       - name: 提交同步记录
-        if: success()
+        if: always()
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add synced_data.json
-          git commit -m "更新同步记录" || echo "无更新需要提交"
+          git add synced_versions.json
+          git commit -m "程序1：更新同步记录" || echo "无更新需要提交"
           git push
