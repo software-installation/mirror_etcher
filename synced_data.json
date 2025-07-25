@@ -75,6 +75,10 @@
     "5177269": {
       "tag_name": "v1.0.0-beta.18",
       "fully_synced_at": "2025-07-25 07:29:34.497852"
+    },
+    "5582504": {
+      "tag_name": "v1.0.0-beta.19",
+      "fully_synced_at": "2025-07-25 07:30:45.256766"
     }
   },
   "assets": {
@@ -811,6 +815,56 @@
         "updated_at": "2025-07-25T07:29:34+00:00",
         "synced_at": "2025-07-25 07:29:34.483050"
       }
+    },
+    "5582504": {
+      "Etcher-1.0.0-beta.19-darwin-x64.dmg_58471216": {
+        "name": "Etcher-1.0.0-beta.19-darwin-x64.dmg",
+        "size": 58471216,
+        "updated_at": "2025-07-25T07:29:52+00:00",
+        "synced_at": "2025-07-25 07:29:52.957395"
+      },
+      "Etcher-1.0.0-beta.19-darwin-x64.zip_139861064": {
+        "name": "Etcher-1.0.0-beta.19-darwin-x64.zip",
+        "size": 139861064,
+        "updated_at": "2025-07-25T07:30:04+00:00",
+        "synced_at": "2025-07-25 07:30:04.720032"
+      },
+      "Etcher-1.0.0-beta.19-linux-x64.zip_55980227": {
+        "name": "Etcher-1.0.0-beta.19-linux-x64.zip",
+        "size": 55980227,
+        "updated_at": "2025-07-25T07:30:11+00:00",
+        "synced_at": "2025-07-25 07:30:11.500752"
+      },
+      "Etcher-1.0.0-beta.19-linux-x86.zip_57362702": {
+        "name": "Etcher-1.0.0-beta.19-linux-x86.zip",
+        "size": 57362702,
+        "updated_at": "2025-07-25T07:30:18+00:00",
+        "synced_at": "2025-07-25 07:30:18.475934"
+      },
+      "Etcher-1.0.0-beta.19-win32-x64.exe_69411976": {
+        "name": "Etcher-1.0.0-beta.19-win32-x64.exe",
+        "size": 69411976,
+        "updated_at": "2025-07-25T07:30:25+00:00",
+        "synced_at": "2025-07-25 07:30:25.489059"
+      },
+      "Etcher-1.0.0-beta.19-win32-x64.zip_68941130": {
+        "name": "Etcher-1.0.0-beta.19-win32-x64.zip",
+        "size": 68941130,
+        "updated_at": "2025-07-25T07:30:32+00:00",
+        "synced_at": "2025-07-25 07:30:32.374194"
+      },
+      "Etcher-1.0.0-beta.19-win32-x86.exe_58876392": {
+        "name": "Etcher-1.0.0-beta.19-win32-x86.exe",
+        "size": 58876392,
+        "updated_at": "2025-07-25T07:30:38+00:00",
+        "synced_at": "2025-07-25 07:30:38.776707"
+      },
+      "Etcher-1.0.0-beta.19-win32-x86.zip_58413934": {
+        "name": "Etcher-1.0.0-beta.19-win32-x86.zip",
+        "size": 58413934,
+        "updated_at": "2025-07-25T07:30:45+00:00",
+        "synced_at": "2025-07-25 07:30:45.243990"
+      }
     }
   },
   "source_codes": {
@@ -1002,6 +1056,16 @@
       "SourceCode_v1.0.0-beta.18.tar.gz": {
         "exists": true,
         "synced_at": "2025-07-25 07:28:32.458076"
+      }
+    },
+    "v1.0.0-beta.19": {
+      "SourceCode_v1.0.0-beta.19.zip": {
+        "exists": true,
+        "synced_at": "2025-07-25 07:29:45.888291"
+      },
+      "SourceCode_v1.0.0-beta.19.tar.gz": {
+        "exists": true,
+        "synced_at": "2025-07-25 07:29:45.889879"
       }
     }
   }
