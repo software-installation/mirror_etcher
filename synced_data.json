@@ -91,6 +91,10 @@
     "6346332": {
       "tag_name": "v1.0.0-rc.3",
       "fully_synced_at": "2025-07-25 07:34:18.402445"
+    },
+    "6346336": {
+      "tag_name": "v1.0.0-rc.4",
+      "fully_synced_at": "2025-07-25 07:35:30.314931"
     }
   },
   "assets": {
@@ -1027,6 +1031,56 @@
         "updated_at": "2025-07-25T07:34:18+00:00",
         "synced_at": "2025-07-25 07:34:18.388268"
       }
+    },
+    "6346336": {
+      "Etcher-1.0.0-rc.4-darwin-x64.dmg_61900187": {
+        "name": "Etcher-1.0.0-rc.4-darwin-x64.dmg",
+        "size": 61900187,
+        "updated_at": "2025-07-25T07:34:35+00:00",
+        "synced_at": "2025-07-25 07:34:35.764684"
+      },
+      "Etcher-1.0.0-rc.4-darwin-x64.zip_143278691": {
+        "name": "Etcher-1.0.0-rc.4-darwin-x64.zip",
+        "size": 143278691,
+        "updated_at": "2025-07-25T07:34:47+00:00",
+        "synced_at": "2025-07-25 07:34:47.762936"
+      },
+      "Etcher-1.0.0-rc.4-linux-x64.zip_62009500": {
+        "name": "Etcher-1.0.0-rc.4-linux-x64.zip",
+        "size": 62009500,
+        "updated_at": "2025-07-25T07:34:54+00:00",
+        "synced_at": "2025-07-25 07:34:54.968450"
+      },
+      "Etcher-1.0.0-rc.4-linux-x86.zip_63287022": {
+        "name": "Etcher-1.0.0-rc.4-linux-x86.zip",
+        "size": 63287022,
+        "updated_at": "2025-07-25T07:35:01+00:00",
+        "synced_at": "2025-07-25 07:35:01.642996"
+      },
+      "Etcher-1.0.0-rc.4-win32-x64.exe_73605048": {
+        "name": "Etcher-1.0.0-rc.4-win32-x64.exe",
+        "size": 73605048,
+        "updated_at": "2025-07-25T07:35:08+00:00",
+        "synced_at": "2025-07-25 07:35:08.940034"
+      },
+      "Etcher-1.0.0-rc.4-win32-x64.zip_73102516": {
+        "name": "Etcher-1.0.0-rc.4-win32-x64.zip",
+        "size": 73102516,
+        "updated_at": "2025-07-25T07:35:16+00:00",
+        "synced_at": "2025-07-25 07:35:16.517410"
+      },
+      "Etcher-1.0.0-rc.4-win32-x86.exe_63341880": {
+        "name": "Etcher-1.0.0-rc.4-win32-x86.exe",
+        "size": 63341880,
+        "updated_at": "2025-07-25T07:35:23+00:00",
+        "synced_at": "2025-07-25 07:35:23.583710"
+      },
+      "Etcher-1.0.0-rc.4-win32-x86.zip_62850908": {
+        "name": "Etcher-1.0.0-rc.4-win32-x86.zip",
+        "size": 62850908,
+        "updated_at": "2025-07-25T07:35:30+00:00",
+        "synced_at": "2025-07-25 07:35:30.301163"
+      }
     }
   },
   "source_codes": {
@@ -1258,6 +1312,16 @@
       "SourceCode_v1.0.0-rc.3.tar.gz": {
         "exists": true,
         "synced_at": "2025-07-25 07:33:16.329971"
+      }
+    },
+    "v1.0.0-rc.4": {
+      "SourceCode_v1.0.0-rc.4.zip": {
+        "exists": true,
+        "synced_at": "2025-07-25 07:34:28.215927"
+      },
+      "SourceCode_v1.0.0-rc.4.tar.gz": {
+        "exists": true,
+        "synced_at": "2025-07-25 07:34:28.217861"
       }
     }
   }
