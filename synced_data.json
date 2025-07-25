@@ -3,6 +3,10 @@
     "4857319": {
       "tag_name": "v1.0.0-beta.0",
       "fully_synced_at": "2025-07-25 07:09:56.994048"
+    },
+    "4857901": {
+      "tag_name": "v1.0.0-beta.1",
+      "fully_synced_at": "2025-07-25 07:10:37.272814"
     }
   },
   "assets": {
@@ -37,6 +41,38 @@
         "updated_at": "2025-07-25T07:09:56+00:00",
         "synced_at": "2025-07-25 07:09:56.984186"
       }
+    },
+    "4857901": {
+      "Etcher-darwin-x64.dmg_47071474": {
+        "name": "Etcher-darwin-x64.dmg",
+        "size": 47071474,
+        "updated_at": "2025-07-25T07:10:12+00:00",
+        "synced_at": "2025-07-25 07:10:12.710676"
+      },
+      "Etcher-linux-x64.tar.gz_45210674": {
+        "name": "Etcher-linux-x64.tar.gz",
+        "size": 45210674,
+        "updated_at": "2025-07-25T07:10:18+00:00",
+        "synced_at": "2025-07-25 07:10:18.360905"
+      },
+      "Etcher-linux-x86.tar.gz_45277757": {
+        "name": "Etcher-linux-x86.tar.gz",
+        "size": 45277757,
+        "updated_at": "2025-07-25T07:10:23+00:00",
+        "synced_at": "2025-07-25 07:10:23.943848"
+      },
+      "Etcher-win32-x64.exe_57629624": {
+        "name": "Etcher-win32-x64.exe",
+        "size": 57629624,
+        "updated_at": "2025-07-25T07:10:29+00:00",
+        "synced_at": "2025-07-25 07:10:29.938168"
+      },
+      "Etcher-win32-x86.exe_76658688": {
+        "name": "Etcher-win32-x86.exe",
+        "size": 76658688,
+        "updated_at": "2025-07-25T07:10:37+00:00",
+        "synced_at": "2025-07-25 07:10:37.257475"
+      }
     }
   },
   "source_codes": {
@@ -48,6 +84,16 @@
       "SourceCode_v1.0.0-beta.0.tar.gz": {
         "exists": true,
         "synced_at": "2025-07-25 07:09:27.800439"
+      }
+    },
+    "v1.0.0-beta.1": {
+      "SourceCode_v1.0.0-beta.1.zip": {
+        "exists": true,
+        "synced_at": "2025-07-25 07:10:06.728072"
+      },
+      "SourceCode_v1.0.0-beta.1.tar.gz": {
+        "exists": true,
+        "synced_at": "2025-07-25 07:10:06.728484"
       }
     }
   }
