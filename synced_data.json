@@ -143,6 +143,10 @@
     "10740645": {
       "tag_name": "v1.4.4",
       "fully_synced_at": "2025-07-25 07:57:00.584052"
+    },
+    "13375049": {
+      "tag_name": "v1.4.5",
+      "fully_synced_at": "2025-07-25 07:59:32.073286"
     }
   },
   "assets": {
@@ -2280,6 +2284,134 @@
         "updated_at": "2025-07-25T07:57:00+00:00",
         "synced_at": "2025-07-25 07:57:00.580050"
       }
+    },
+    "13375049": {
+      "Etcher-1.4.5-mac.zip_89821632": {
+        "name": "Etcher-1.4.5-mac.zip",
+        "size": 89821632,
+        "updated_at": "2025-07-25T07:57:18+00:00",
+        "synced_at": "2025-07-25 07:57:18.850930"
+      },
+      "Etcher-1.4.5.dmg_93536109": {
+        "name": "Etcher-1.4.5.dmg",
+        "size": 93536109,
+        "updated_at": "2025-07-25T07:57:27+00:00",
+        "synced_at": "2025-07-25 07:57:27.488949"
+      },
+      "etcher-cli-1.4.5-darwin-x64.tar.gz_17525010": {
+        "name": "etcher-cli-1.4.5-darwin-x64.tar.gz",
+        "size": 17525010,
+        "updated_at": "2025-07-25T07:57:31+00:00",
+        "synced_at": "2025-07-25 07:57:31.353821"
+      },
+      "etcher-cli-1.4.5-linux-x64.tar.gz_19467682": {
+        "name": "etcher-cli-1.4.5-linux-x64.tar.gz",
+        "size": 19467682,
+        "updated_at": "2025-07-25T07:57:35+00:00",
+        "synced_at": "2025-07-25 07:57:35.441026"
+      },
+      "etcher-cli-1.4.5-linux-x86.tar.gz_18615350": {
+        "name": "etcher-cli-1.4.5-linux-x86.tar.gz",
+        "size": 18615350,
+        "updated_at": "2025-07-25T07:57:39+00:00",
+        "synced_at": "2025-07-25 07:57:39.176534"
+      },
+      "etcher-cli-1.4.5-windows-x64.zip_19137896": {
+        "name": "etcher-cli-1.4.5-windows-x64.zip",
+        "size": 19137896,
+        "updated_at": "2025-07-25T07:57:43+00:00",
+        "synced_at": "2025-07-25 07:57:43.304338"
+      },
+      "etcher-cli-1.4.5-windows-x86.zip_19892779": {
+        "name": "etcher-cli-1.4.5-windows-x86.zip",
+        "size": 19892779,
+        "updated_at": "2025-07-25T07:57:47+00:00",
+        "synced_at": "2025-07-25 07:57:47.581699"
+      },
+      "etcher-electron-1.4.5-i386.AppImage_98631680": {
+        "name": "etcher-electron-1.4.5-i386.AppImage",
+        "size": 98631680,
+        "updated_at": "2025-07-25T07:57:57+00:00",
+        "synced_at": "2025-07-25 07:57:57.336283"
+      },
+      "etcher-electron-1.4.5-linux-ia32.zip_98034134": {
+        "name": "etcher-electron-1.4.5-linux-ia32.zip",
+        "size": 98034134,
+        "updated_at": "2025-07-25T07:58:06+00:00",
+        "synced_at": "2025-07-25 07:58:06.365924"
+      },
+      "etcher-electron-1.4.5-linux-x64.zip_96943563": {
+        "name": "etcher-electron-1.4.5-linux-x64.zip",
+        "size": 96943563,
+        "updated_at": "2025-07-25T07:58:16+00:00",
+        "synced_at": "2025-07-25 07:58:16.365848"
+      },
+      "etcher-electron-1.4.5-x86_64.AppImage_97517568": {
+        "name": "etcher-electron-1.4.5-x86_64.AppImage",
+        "size": 97517568,
+        "updated_at": "2025-07-25T07:58:25+00:00",
+        "synced_at": "2025-07-25 07:58:25.995248"
+      },
+      "etcher-electron-1.4.5.i686.rpm_97027445": {
+        "name": "etcher-electron-1.4.5.i686.rpm",
+        "size": 97027445,
+        "updated_at": "2025-07-25T07:58:34+00:00",
+        "synced_at": "2025-07-25 07:58:34.309594"
+      },
+      "etcher-electron-1.4.5.x86_64.rpm_95944021": {
+        "name": "etcher-electron-1.4.5.x86_64.rpm",
+        "size": 95944021,
+        "updated_at": "2025-07-25T07:58:44+00:00",
+        "synced_at": "2025-07-25 07:58:44.556077"
+      },
+      "etcher-electron_1.4.5_amd64.deb_61829232": {
+        "name": "etcher-electron_1.4.5_amd64.deb",
+        "size": 61829232,
+        "updated_at": "2025-07-25T07:58:51+00:00",
+        "synced_at": "2025-07-25 07:58:51.876406"
+      },
+      "etcher-electron_1.4.5_i386.deb_62578336": {
+        "name": "etcher-electron_1.4.5_i386.deb",
+        "size": 62578336,
+        "updated_at": "2025-07-25T07:58:59+00:00",
+        "synced_at": "2025-07-25 07:58:59.314799"
+      },
+      "Etcher-Portable-1.4.5-x64.exe_64027424": {
+        "name": "Etcher-Portable-1.4.5-x64.exe",
+        "size": 64027424,
+        "updated_at": "2025-07-25T07:59:05+00:00",
+        "synced_at": "2025-07-25 07:59:05.875224"
+      },
+      "Etcher-Portable-1.4.5-x86.exe_60621360": {
+        "name": "Etcher-Portable-1.4.5-x86.exe",
+        "size": 60621360,
+        "updated_at": "2025-07-25T07:59:12+00:00",
+        "synced_at": "2025-07-25 07:59:12.769156"
+      },
+      "Etcher-Setup-1.4.5-x64.exe_64362968": {
+        "name": "Etcher-Setup-1.4.5-x64.exe",
+        "size": 64362968,
+        "updated_at": "2025-07-25T07:59:19+00:00",
+        "synced_at": "2025-07-25 07:59:19.918384"
+      },
+      "Etcher-Setup-1.4.5-x86.exe_60961856": {
+        "name": "Etcher-Setup-1.4.5-x86.exe",
+        "size": 60961856,
+        "updated_at": "2025-07-25T07:59:26+00:00",
+        "synced_at": "2025-07-25 07:59:26.408024"
+      },
+      "SHASUMS256-CLI.txt_499": {
+        "name": "SHASUMS256-CLI.txt",
+        "size": 499,
+        "updated_at": "2025-07-25T07:59:29+00:00",
+        "synced_at": "2025-07-25 07:59:29.220292"
+      },
+      "SHASUMS256.txt_1350": {
+        "name": "SHASUMS256.txt",
+        "size": 1350,
+        "updated_at": "2025-07-25T07:59:31+00:00",
+        "synced_at": "2025-07-25 07:59:32.069011"
+      }
     }
   },
   "source_codes": {
@@ -2641,6 +2773,16 @@
       "SourceCode_v1.4.4.tar.gz": {
         "exists": true,
         "synced_at": "2025-07-25 07:54:46.308766"
+      }
+    },
+    "v1.4.5": {
+      "SourceCode_v1.4.5.zip": {
+        "exists": true,
+        "synced_at": "2025-07-25 07:57:10.754451"
+      },
+      "SourceCode_v1.4.5.tar.gz": {
+        "exists": true,
+        "synced_at": "2025-07-25 07:57:10.758178"
       }
     }
   }
