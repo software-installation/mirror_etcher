@@ -147,6 +147,10 @@
     "13375049": {
       "tag_name": "v1.4.5",
       "fully_synced_at": "2025-07-25 07:59:32.073286"
+    },
+    "13720297": {
+      "tag_name": "v1.4.6",
+      "fully_synced_at": "2025-07-25 08:01:59.764950"
     }
   },
   "assets": {
@@ -2540,6 +2544,128 @@
         "updated_at": "2025-07-25T08:01:59+00:00",
         "synced_at": "2025-07-25 08:01:59.760444"
       }
+    },
+    "13978223": {
+      "balena-etcher-cli-1.4.7-darwin-x64.tar.gz_17649394": {
+        "name": "balena-etcher-cli-1.4.7-darwin-x64.tar.gz",
+        "size": 17649394,
+        "updated_at": "2025-07-25T08:02:14+00:00",
+        "synced_at": "2025-07-25 08:02:14.304507"
+      },
+      "balena-etcher-cli-1.4.7-linux-x64.tar.gz_19546987": {
+        "name": "balena-etcher-cli-1.4.7-linux-x64.tar.gz",
+        "size": 19546987,
+        "updated_at": "2025-07-25T08:02:18+00:00",
+        "synced_at": "2025-07-25 08:02:18.839423"
+      },
+      "balena-etcher-cli-1.4.7-linux-x86.tar.gz_18702597": {
+        "name": "balena-etcher-cli-1.4.7-linux-x86.tar.gz",
+        "size": 18702597,
+        "updated_at": "2025-07-25T08:02:22+00:00",
+        "synced_at": "2025-07-25 08:02:22.567908"
+      },
+      "balena-etcher-cli-1.4.7-windows-x64.zip_19514213": {
+        "name": "balena-etcher-cli-1.4.7-windows-x64.zip",
+        "size": 19514213,
+        "updated_at": "2025-07-25T08:02:26+00:00",
+        "synced_at": "2025-07-25 08:02:26.476518"
+      },
+      "balena-etcher-cli-1.4.7-windows-x86.zip_20186377": {
+        "name": "balena-etcher-cli-1.4.7-windows-x86.zip",
+        "size": 20186377,
+        "updated_at": "2025-07-25T08:02:30+00:00",
+        "synced_at": "2025-07-25 08:02:30.552403"
+      },
+      "balena-etcher-electron-1.4.7-i386.AppImage_103677952": {
+        "name": "balena-etcher-electron-1.4.7-i386.AppImage",
+        "size": 103677952,
+        "updated_at": "2025-07-25T08:02:40+00:00",
+        "synced_at": "2025-07-25 08:02:40.258704"
+      },
+      "balena-etcher-electron-1.4.7-linux-ia32.zip_103052375": {
+        "name": "balena-etcher-electron-1.4.7-linux-ia32.zip",
+        "size": 103052375,
+        "updated_at": "2025-07-25T08:02:49+00:00",
+        "synced_at": "2025-07-25 08:02:49.866084"
+      },
+      "balena-etcher-electron-1.4.7-linux-x64.zip_101988935": {
+        "name": "balena-etcher-electron-1.4.7-linux-x64.zip",
+        "size": 101988935,
+        "updated_at": "2025-07-25T08:02:58+00:00",
+        "synced_at": "2025-07-25 08:02:59.092695"
+      },
+      "balena-etcher-electron-1.4.7-x86_64.AppImage_102563840": {
+        "name": "balena-etcher-electron-1.4.7-x86_64.AppImage",
+        "size": 102563840,
+        "updated_at": "2025-07-25T08:03:08+00:00",
+        "synced_at": "2025-07-25 08:03:08.652877"
+      },
+      "balena-etcher-electron-1.4.7.i386.rpm_101828723": {
+        "name": "balena-etcher-electron-1.4.7.i386.rpm",
+        "size": 101828723,
+        "updated_at": "2025-07-25T08:03:18+00:00",
+        "synced_at": "2025-07-25 08:03:18.787808"
+      },
+      "balena-etcher-electron-1.4.7.x86_64.rpm_100759266": {
+        "name": "balena-etcher-electron-1.4.7.x86_64.rpm",
+        "size": 100759266,
+        "updated_at": "2025-07-25T08:03:27+00:00",
+        "synced_at": "2025-07-25 08:03:27.278201"
+      },
+      "balena-etcher-electron_1.4.7_amd64.deb_68629280": {
+        "name": "balena-etcher-electron_1.4.7_amd64.deb",
+        "size": 68629280,
+        "updated_at": "2025-07-25T08:03:34+00:00",
+        "synced_at": "2025-07-25 08:03:34.552811"
+      },
+      "balena-etcher-electron_1.4.7_i386.deb_69108484": {
+        "name": "balena-etcher-electron_1.4.7_i386.deb",
+        "size": 69108484,
+        "updated_at": "2025-07-25T08:03:41+00:00",
+        "synced_at": "2025-07-25 08:03:41.290676"
+      },
+      "balenaEtcher-1.4.7-mac.zip_94424812": {
+        "name": "balenaEtcher-1.4.7-mac.zip",
+        "size": 94424812,
+        "updated_at": "2025-07-25T08:03:49+00:00",
+        "synced_at": "2025-07-25 08:03:50.063926"
+      },
+      "balenaEtcher-1.4.7.dmg_98071938": {
+        "name": "balenaEtcher-1.4.7.dmg",
+        "size": 98071938,
+        "updated_at": "2025-07-25T08:03:59+00:00",
+        "synced_at": "2025-07-25 08:03:59.247308"
+      },
+      "balenaEtcher-Portable-1.4.7-x64.exe_66969312": {
+        "name": "balenaEtcher-Portable-1.4.7-x64.exe",
+        "size": 66969312,
+        "updated_at": "2025-07-25T08:04:06+00:00",
+        "synced_at": "2025-07-25 08:04:07.003771"
+      },
+      "balenaEtcher-Portable-1.4.7-x86.exe_63538880": {
+        "name": "balenaEtcher-Portable-1.4.7-x86.exe",
+        "size": 63538880,
+        "updated_at": "2025-07-25T08:04:13+00:00",
+        "synced_at": "2025-07-25 08:04:13.863341"
+      },
+      "balenaEtcher-Setup-1.4.7-x64.exe_67144672": {
+        "name": "balenaEtcher-Setup-1.4.7-x64.exe",
+        "size": 67144672,
+        "updated_at": "2025-07-25T08:04:20+00:00",
+        "synced_at": "2025-07-25 08:04:21.078752"
+      },
+      "balenaEtcher-Setup-1.4.7-x86.exe_63713584": {
+        "name": "balenaEtcher-Setup-1.4.7-x86.exe",
+        "size": 63713584,
+        "updated_at": "2025-07-25T08:04:28+00:00",
+        "synced_at": "2025-07-25 08:04:28.189961"
+      },
+      "SHASUMS256.txt_1442": {
+        "name": "SHASUMS256.txt",
+        "size": 1442,
+        "updated_at": "2025-07-25T08:04:30+00:00",
+        "synced_at": "2025-07-25 08:04:31.096363"
+      }
     }
   },
   "source_codes": {
@@ -2921,6 +3047,16 @@
       "SourceCode_v1.4.6.tar.gz": {
         "exists": true,
         "synced_at": "2025-07-25 07:59:42.281762"
+      }
+    },
+    "v1.4.7": {
+      "SourceCode_v1.4.7.zip": {
+        "exists": true,
+        "synced_at": "2025-07-25 08:02:09.730940"
+      },
+      "SourceCode_v1.4.7.tar.gz": {
+        "exists": true,
+        "synced_at": "2025-07-25 08:02:09.734991"
       }
     }
   }
