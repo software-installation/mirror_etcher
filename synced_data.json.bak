@@ -51,6 +51,10 @@
     "4857516": {
       "tag_name": "v1.0.0-beta.12",
       "fully_synced_at": "2025-07-25 07:22:51.446021"
+    },
+    "4857508": {
+      "tag_name": "v1.0.0-beta.13",
+      "fully_synced_at": "2025-07-25 07:23:54.105797"
     }
   },
   "assets": {
@@ -567,6 +571,38 @@
         "updated_at": "2025-07-25T07:23:53+00:00",
         "synced_at": "2025-07-25 07:23:54.089804"
       }
+    },
+    "4857501": {
+      "Etcher-darwin-x64.dmg_75930576": {
+        "name": "Etcher-darwin-x64.dmg",
+        "size": 75930576,
+        "updated_at": "2025-07-25T07:24:12+00:00",
+        "synced_at": "2025-07-25 07:24:12.901481"
+      },
+      "Etcher-darwin-x64.zip_158990743": {
+        "name": "Etcher-darwin-x64.zip",
+        "size": 158990743,
+        "updated_at": "2025-07-25T07:24:24+00:00",
+        "synced_at": "2025-07-25 07:24:24.747738"
+      },
+      "Etcher-linux-x64.AppImage_70385664": {
+        "name": "Etcher-linux-x64.AppImage",
+        "size": 70385664,
+        "updated_at": "2025-07-25T07:24:31+00:00",
+        "synced_at": "2025-07-25 07:24:31.694503"
+      },
+      "Etcher-linux-x86.AppImage_70909952": {
+        "name": "Etcher-linux-x86.AppImage",
+        "size": 70909952,
+        "updated_at": "2025-07-25T07:24:39+00:00",
+        "synced_at": "2025-07-25 07:24:39.605534"
+      },
+      "Etcher-win32-x86.exe_75049656": {
+        "name": "Etcher-win32-x86.exe",
+        "size": 75049656,
+        "updated_at": "2025-07-25T07:24:45+00:00",
+        "synced_at": "2025-07-25 07:24:45.618075"
+      }
     }
   },
   "source_codes": {
@@ -708,6 +744,16 @@
       "SourceCode_v1.0.0-beta.13.tar.gz": {
         "exists": true,
         "synced_at": "2025-07-25 07:23:01.647477"
+      }
+    },
+    "v1.0.0-beta.14": {
+      "SourceCode_v1.0.0-beta.14.zip": {
+        "exists": true,
+        "synced_at": "2025-07-25 07:24:04.709049"
+      },
+      "SourceCode_v1.0.0-beta.14.tar.gz": {
+        "exists": true,
+        "synced_at": "2025-07-25 07:24:04.710352"
       }
     }
   }
