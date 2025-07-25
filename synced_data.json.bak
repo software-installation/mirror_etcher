@@ -47,6 +47,10 @@
     "4857530": {
       "tag_name": "v1.0.0-beta.11",
       "fully_synced_at": "2025-07-25 07:20:45.874920"
+    },
+    "4857516": {
+      "tag_name": "v1.0.0-beta.12",
+      "fully_synced_at": "2025-07-25 07:22:51.446021"
     }
   },
   "assets": {
@@ -525,6 +529,44 @@
         "updated_at": "2025-07-25T07:22:51+00:00",
         "synced_at": "2025-07-25 07:22:51.429829"
       }
+    },
+    "4857508": {
+      "Etcher-darwin-x64.dmg_78016610": {
+        "name": "Etcher-darwin-x64.dmg",
+        "size": 78016610,
+        "updated_at": "2025-07-25T07:23:10+00:00",
+        "synced_at": "2025-07-25 07:23:10.590250"
+      },
+      "Etcher-darwin-x64.zip_161057893": {
+        "name": "Etcher-darwin-x64.zip",
+        "size": 161057893,
+        "updated_at": "2025-07-25T07:23:24+00:00",
+        "synced_at": "2025-07-25 07:23:24.328348"
+      },
+      "Etcher-linux-x64.AppImage_72351744": {
+        "name": "Etcher-linux-x64.AppImage",
+        "size": 72351744,
+        "updated_at": "2025-07-25T07:23:30+00:00",
+        "synced_at": "2025-07-25 07:23:31.060081"
+      },
+      "Etcher-linux-x86.AppImage_73072640": {
+        "name": "Etcher-linux-x86.AppImage",
+        "size": 73072640,
+        "updated_at": "2025-07-25T07:23:37+00:00",
+        "synced_at": "2025-07-25 07:23:38.115740"
+      },
+      "Etcher-win32-x64.exe_87192832": {
+        "name": "Etcher-win32-x64.exe",
+        "size": 87192832,
+        "updated_at": "2025-07-25T07:23:45+00:00",
+        "synced_at": "2025-07-25 07:23:46.080908"
+      },
+      "Etcher-win32-x86.exe_76942120": {
+        "name": "Etcher-win32-x86.exe",
+        "size": 76942120,
+        "updated_at": "2025-07-25T07:23:53+00:00",
+        "synced_at": "2025-07-25 07:23:54.089804"
+      }
     }
   },
   "source_codes": {
@@ -656,6 +698,16 @@
       "SourceCode_v1.0.0-beta.12.tar.gz": {
         "exists": true,
         "synced_at": "2025-07-25 07:20:57.297848"
+      }
+    },
+    "v1.0.0-beta.13": {
+      "SourceCode_v1.0.0-beta.13.zip": {
+        "exists": true,
+        "synced_at": "2025-07-25 07:23:01.646297"
+      },
+      "SourceCode_v1.0.0-beta.13.tar.gz": {
+        "exists": true,
+        "synced_at": "2025-07-25 07:23:01.647477"
       }
     }
   }
