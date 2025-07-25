@@ -1,6 +1,7 @@
 import os
 import json
 import subprocess
+import requests  # 新增：使用requests库下载文件，替代PyGithub的流式下载
 from datetime import datetime
 from github import Github
 from github.GithubException import GithubException
@@ -8,7 +9,8 @@ from github.GithubException import GithubException
 # 配置参数
 BATCH_SIZE = 10  # 每同步10个版本保存一次
 RECORD_FILE = "synced_versions.json"  # 同步记录文件
-TIME_DELTA_THRESHOLD = 1  # 时间差阈值（秒），超过此值认为文件更新
+TIME_DELTA_THRESHOLD = 1  # 时间差阈值（秒）
+TIMEOUT = 300  # 下载超时时间（秒）
 
 
 def initialize_record_file():
@@ -69,15 +71,44 @@ def git_commit_and_push(message):
 
 
 def get_asset_info(assets):
-    """提取资产信息为字典（文件名: (大小, 更新时间)），用于比对"""
+    """提取资产信息为字典（文件名: (大小, 更新时间)）"""
     return {
         asset.name: (asset.size, asset.updated_at) 
         for asset in assets
     }
 
 
-def sync_release_assets(source_release, target_release):
-    """同步版本中的资产文件（通过文件名、大小、时间三重判断）"""
+def download_asset(asset, save_path, token=None):
+    """使用requests下载资产文件，兼容所有PyGithub版本"""
+    headers = {}
+    if token:
+        headers["Authorization"] = f"token {token}"
+    
+    try:
+        # 发送GET请求下载文件
+        response = requests.get(
+            asset.browser_download_url,
+            headers=headers,
+            stream=True,
+            timeout=TIMEOUT
+        )
+        response.raise_for_status()  # 检查HTTP错误
+        
+        # 写入文件
+        with open(save_path, "wb") as f:
+            for chunk in response.iter_content(chunk_size=8192):
+                if chunk:  # 过滤空块
+                    f.write(chunk)
+        return True
+    except Exception as e:
+        print(f"下载失败 {asset.name}: {str(e)}")
+        if os.path.exists(save_path):
+            os.remove(save_path)
+        return False
+
+
+def sync_release_assets(source_release, target_release, source_token):
+    """同步版本中的资产文件（使用requests下载）"""
     # 获取源和目标的资产信息
     source_assets = source_release.get_assets()
     target_assets = target_release.get_assets()
@@ -85,10 +116,7 @@ def sync_release_assets(source_release, target_release):
     source_info = get_asset_info(source_assets)
     target_info = get_asset_info(target_assets)
     
-    # 筛选需要上传的资产：
-    # 1. 文件名不存在
-    # 2. 文件名存在但大小不匹配
-    # 3. 文件名和大小匹配但源文件更新时间更新
+    # 筛选需要上传的资产
     to_upload = []
     for asset in source_assets:
         name = asset.name
@@ -97,12 +125,10 @@ def sync_release_assets(source_release, target_release):
             print(f"需要上传: {name}（目标不存在）")
         else:
             target_size, target_time = target_info[name]
-            # 比较大小
             if asset.size != target_size:
                 to_upload.append(asset)
                 print(f"需要上传: {name}（大小不匹配，源:{asset.size}，目标:{target_size}）")
             else:
-                # 比较时间（源时间 - 目标时间 > 阈值秒则认为更新）
                 time_diff = (asset.updated_at - target_time).total_seconds()
                 if time_diff > TIME_DELTA_THRESHOLD:
                     to_upload.append(asset)
@@ -116,9 +142,10 @@ def sync_release_assets(source_release, target_release):
     for asset in to_upload:
         temp_file = f"temp_{asset.id}_{asset.name}"
         try:
-            # 流式下载源文件
-            with open(temp_file, "wb") as f:
-                asset.download_stream().readinto(f)
+            # 使用requests下载（替代原有的download_stream）
+            if not download_asset(asset, temp_file, source_token):
+                print(f"❌ 跳过 {asset.name} 因为下载失败")
+                continue
             
             # 若目标已存在该文件，先删除旧版本
             if asset.name in target_info:
@@ -142,8 +169,8 @@ def sync_release_assets(source_release, target_release):
     return True
 
 
-def sync_single_release(source_release, target_repo):
-    """同步单个Release（含版本+文件大小+时间三重检测）"""
+def sync_single_release(source_release, target_repo, source_token):
+    """同步单个Release（使用兼容的下载方式）"""
     tag_name = source_release.tag_name
     
     try:
@@ -151,8 +178,8 @@ def sync_single_release(source_release, target_repo):
         target_release = target_repo.get_release(tag_name)
         print(f"版本 {tag_name} 已存在，检查资产更新...")
         
-        # 验证并同步资产文件（含时间判断）
-        return sync_release_assets(source_release, target_release)
+        # 验证并同步资产文件
+        return sync_release_assets(source_release, target_release, source_token)
         
     except GithubException:
         # 版本不存在，创建并同步所有资产
@@ -164,7 +191,7 @@ def sync_single_release(source_release, target_repo):
             draft=source_release.draft,
             prerelease=source_release.prerelease
         )
-        return sync_release_assets(source_release, target_release)
+        return sync_release_assets(source_release, target_release, source_token)
 
 
 def main():
@@ -207,8 +234,8 @@ def main():
 
     try:
         for release in to_sync:
-            # 无论是否已同步，都检查文件完整性和更新时间
-            if sync_single_release(release, target_repo):
+            # 同步单个版本，传入source_token用于下载
+            if sync_single_release(release, target_repo, source_token):
                 # 若版本是首次同步，加入记录
                 if release.tag_name not in synced_versions:
                     synced_versions.append(release.tag_name)
