@@ -975,6 +975,10 @@
     "91173138": {
       "tag_name": "v1.15.4",
       "fully_synced_at": "2025-07-26 09:35:00.812732"
+    },
+    "91251742": {
+      "tag_name": "tags/v1.15.5",
+      "fully_synced_at": "2025-07-26 09:36:09.953494"
     }
   },
   "assets": {
@@ -24444,6 +24448,92 @@
         "updated_at": "2025-07-26T09:36:09+00:00",
         "synced_at": "2025-07-26 09:36:09.921613"
       }
+    },
+    "92128996": {
+      "balena-etcher-1.15.6.x86_64.rpm_67648400": {
+        "name": "balena-etcher-1.15.6.x86_64.rpm",
+        "size": 67648400,
+        "updated_at": "2025-07-26T09:36:17+00:00",
+        "synced_at": "2025-07-26 09:36:17.497472"
+      },
+      "balena-etcher_1.15.6_amd64.deb_85383772": {
+        "name": "balena-etcher_1.15.6_amd64.deb",
+        "size": 85383772,
+        "updated_at": "2025-07-26T09:36:23+00:00",
+        "synced_at": "2025-07-26 09:36:23.451255"
+      },
+      "balenaEtcher-1.15.6-ia32-win.zip_95371353": {
+        "name": "balenaEtcher-1.15.6-ia32-win.zip",
+        "size": 95371353,
+        "updated_at": "2025-07-26T09:36:29+00:00",
+        "synced_at": "2025-07-26 09:36:29.213136"
+      },
+      "balenaEtcher-1.15.6-win.zip_99661771": {
+        "name": "balenaEtcher-1.15.6-win.zip",
+        "size": 99661771,
+        "updated_at": "2025-07-26T09:36:35+00:00",
+        "synced_at": "2025-07-26 09:36:35.601439"
+      },
+      "balenaEtcher-1.15.6-x64.AppImage_94306337": {
+        "name": "balenaEtcher-1.15.6-x64.AppImage",
+        "size": 94306337,
+        "updated_at": "2025-07-26T09:36:40+00:00",
+        "synced_at": "2025-07-26 09:36:41.028814"
+      },
+      "balenaEtcher-1.15.6.dmg_96579892": {
+        "name": "balenaEtcher-1.15.6.dmg",
+        "size": 96579892,
+        "updated_at": "2025-07-26T09:36:45+00:00",
+        "synced_at": "2025-07-26 09:36:45.779972"
+      },
+      "balenaEtcher-1.15.6.dmg.blockmap_101794": {
+        "name": "balenaEtcher-1.15.6.dmg.blockmap",
+        "size": 101794,
+        "updated_at": "2025-07-26T09:36:48+00:00",
+        "synced_at": "2025-07-26 09:36:48.388195"
+      },
+      "balenaEtcher-Portable-1.15.6.exe_131453360": {
+        "name": "balenaEtcher-Portable-1.15.6.exe",
+        "size": 131453360,
+        "updated_at": "2025-07-26T09:36:55+00:00",
+        "synced_at": "2025-07-26 09:36:55.489162"
+      },
+      "balenaEtcher-Setup-1.15.6.exe_146925608": {
+        "name": "balenaEtcher-Setup-1.15.6.exe",
+        "size": 146925608,
+        "updated_at": "2025-07-26T09:37:03+00:00",
+        "synced_at": "2025-07-26 09:37:03.456595"
+      },
+      "balenaEtcher-Setup-1.15.6.exe.blockmap_150501": {
+        "name": "balenaEtcher-Setup-1.15.6.exe.blockmap",
+        "size": 150501,
+        "updated_at": "2025-07-26T09:37:05+00:00",
+        "synced_at": "2025-07-26 09:37:05.973646"
+      },
+      "builder-debug.yml_7208": {
+        "name": "builder-debug.yml",
+        "size": 7208,
+        "updated_at": "2025-07-26T09:37:08+00:00",
+        "synced_at": "2025-07-26 09:37:08.537752"
+      },
+      "latest-linux.yml_410": {
+        "name": "latest-linux.yml",
+        "size": 410,
+        "updated_at": "2025-07-26T09:37:10+00:00",
+        "synced_at": "2025-07-26 09:37:11.059089"
+      },
+      "latest-mac.yml_368": {
+        "name": "latest-mac.yml",
+        "size": 368,
+        "updated_at": "2025-07-26T09:37:13+00:00",
+        "synced_at": "2025-07-26 09:37:13.578010"
+      },
+      "latest.yml_381": {
+        "name": "latest.yml",
+        "size": 381,
+        "updated_at": "2025-07-26T09:37:16+00:00",
+        "synced_at": "2025-07-26 09:37:16.166598"
+      }
     }
   },
   "source_codes": {
@@ -26887,6 +26977,16 @@
         "synced_at": "2025-07-26 09:33:57.172738"
       }
     },
-    "tags/v1.15.5": {}
+    "tags/v1.15.5": {},
+    "v1.15.6": {
+      "SourceCode_v1.15.6.zip": {
+        "exists": true,
+        "synced_at": "2025-07-26 09:36:12.374890"
+      },
+      "SourceCode_v1.15.6.tar.gz": {
+        "exists": true,
+        "synced_at": "2025-07-26 09:36:12.406556"
+      }
+    }
   }
 }
