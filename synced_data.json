@@ -1059,6 +1059,10 @@
     "134913187": {
       "tag_name": "v1.19.3",
       "fully_synced_at": "2025-07-26 09:59:32.867290"
+    },
+    "138698855": {
+      "tag_name": "v1.19.4",
+      "fully_synced_at": "2025-07-26 10:01:04.552255"
     }
   },
   "assets": {
@@ -26230,6 +26234,92 @@
         "updated_at": "2025-07-26T09:59:32+00:00",
         "synced_at": "2025-07-26 09:59:32.833481"
       }
+    },
+    "138698855": {
+      "balena-etcher-1.19.4-1.x86_64.rpm_97344912": {
+        "name": "balena-etcher-1.19.4-1.x86_64.rpm",
+        "size": 97344912,
+        "updated_at": "2025-07-26T09:59:41+00:00",
+        "synced_at": "2025-07-26 09:59:41.419757"
+      },
+      "balena-etcher_1.19.4_amd64.deb_106567416": {
+        "name": "balena-etcher_1.19.4_amd64.deb",
+        "size": 106567416,
+        "updated_at": "2025-07-26T09:59:48+00:00",
+        "synced_at": "2025-07-26 09:59:48.141596"
+      },
+      "balenaEtcher-1.19.4-arm64.dmg_141304611": {
+        "name": "balenaEtcher-1.19.4-arm64.dmg",
+        "size": 141304611,
+        "updated_at": "2025-07-26T09:59:55+00:00",
+        "synced_at": "2025-07-26 09:59:55.675587"
+      },
+      "balenaEtcher-1.19.4-x64.AppImage_150332608": {
+        "name": "balenaEtcher-1.19.4-x64.AppImage",
+        "size": 150332608,
+        "updated_at": "2025-07-26T10:00:03+00:00",
+        "synced_at": "2025-07-26 10:00:03.723559"
+      },
+      "balenaEtcher-1.19.4-x64.dmg_145644305": {
+        "name": "balenaEtcher-1.19.4-x64.dmg",
+        "size": 145644305,
+        "updated_at": "2025-07-26T10:00:11+00:00",
+        "synced_at": "2025-07-26 10:00:11.893219"
+      },
+      "balenaEtcher-1.19.4.Setup.exe_176801792": {
+        "name": "balenaEtcher-1.19.4.Setup.exe",
+        "size": 176801792,
+        "updated_at": "2025-07-26T10:00:19+00:00",
+        "synced_at": "2025-07-26 10:00:19.725464"
+      },
+      "balenaEtcher-darwin-arm64-1.19.4.zip_140868612": {
+        "name": "balenaEtcher-darwin-arm64-1.19.4.zip",
+        "size": 140868612,
+        "updated_at": "2025-07-26T10:00:27+00:00",
+        "synced_at": "2025-07-26 10:00:27.396301"
+      },
+      "balenaEtcher-darwin-x64-1.19.4.zip_145231300": {
+        "name": "balenaEtcher-darwin-x64-1.19.4.zip",
+        "size": 145231300,
+        "updated_at": "2025-07-26T10:00:36+00:00",
+        "synced_at": "2025-07-26 10:00:36.865983"
+      },
+      "balenaEtcher-linux-x64-1.19.4.zip_148651239": {
+        "name": "balenaEtcher-linux-x64-1.19.4.zip",
+        "size": 148651239,
+        "updated_at": "2025-07-26T10:00:44+00:00",
+        "synced_at": "2025-07-26 10:00:44.588411"
+      },
+      "balenaEtcher-win32-x64-1.19.4.zip_182671323": {
+        "name": "balenaEtcher-win32-x64-1.19.4.zip",
+        "size": 182671323,
+        "updated_at": "2025-07-26T10:00:53+00:00",
+        "synced_at": "2025-07-26 10:00:54.133241"
+      },
+      "SHA256SUMS.Darwin.arm64.txt_199": {
+        "name": "SHA256SUMS.Darwin.arm64.txt",
+        "size": 199,
+        "updated_at": "2025-07-26T10:00:56+00:00",
+        "synced_at": "2025-07-26 10:00:56.821355"
+      },
+      "SHA256SUMS.Darwin.x64.txt_195": {
+        "name": "SHA256SUMS.Darwin.x64.txt",
+        "size": 195,
+        "updated_at": "2025-07-26T10:00:59+00:00",
+        "synced_at": "2025-07-26 10:00:59.431348"
+      },
+      "SHA256SUMS.Linux.x64.txt_396": {
+        "name": "SHA256SUMS.Linux.x64.txt",
+        "size": 396,
+        "updated_at": "2025-07-26T10:01:01+00:00",
+        "synced_at": "2025-07-26 10:01:01.934999"
+      },
+      "SHA256SUMS.Windows.x64.txt_196": {
+        "name": "SHA256SUMS.Windows.x64.txt",
+        "size": 196,
+        "updated_at": "2025-07-26T10:01:04+00:00",
+        "synced_at": "2025-07-26 10:01:04.518736"
+      }
     }
   },
   "source_codes": {
@@ -28872,6 +28962,16 @@
       "SourceCode_v1.19.3.tar.gz": {
         "exists": true,
         "synced_at": "2025-07-26 09:58:05.612508"
+      }
+    },
+    "v1.19.4": {
+      "SourceCode_v1.19.4.zip": {
+        "exists": true,
+        "synced_at": "2025-07-26 09:59:34.692387"
+      },
+      "SourceCode_v1.19.4.tar.gz": {
+        "exists": true,
+        "synced_at": "2025-07-26 09:59:34.729722"
       }
     }
   }
