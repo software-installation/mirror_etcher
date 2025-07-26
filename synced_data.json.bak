@@ -779,6 +779,10 @@
     "85256890": {
       "tag_name": "v1.10.12",
       "fully_synced_at": "2025-07-26 08:39:41.573444"
+    },
+    "85465253": {
+      "tag_name": "v1.10.13",
+      "fully_synced_at": "2025-07-26 08:40:43.838457"
     }
   },
   "assets": {
@@ -20034,6 +20038,92 @@
         "updated_at": "2025-07-26T08:40:43+00:00",
         "synced_at": "2025-07-26 08:40:43.812240"
       }
+    },
+    "85478838": {
+      "balena-etcher-1.10.14.x86_64.rpm_67538712": {
+        "name": "balena-etcher-1.10.14.x86_64.rpm",
+        "size": 67538712,
+        "updated_at": "2025-07-26T08:40:51+00:00",
+        "synced_at": "2025-07-26 08:40:51.312285"
+      },
+      "balena-etcher_1.10.14_amd64.deb_86840440": {
+        "name": "balena-etcher_1.10.14_amd64.deb",
+        "size": 86840440,
+        "updated_at": "2025-07-26T08:40:56+00:00",
+        "synced_at": "2025-07-26 08:40:56.869079"
+      },
+      "balenaEtcher-1.10.14-ia32-win.zip_94305427": {
+        "name": "balenaEtcher-1.10.14-ia32-win.zip",
+        "size": 94305427,
+        "updated_at": "2025-07-26T08:41:02+00:00",
+        "synced_at": "2025-07-26 08:41:02.855283"
+      },
+      "balenaEtcher-1.10.14-win.zip_98642684": {
+        "name": "balenaEtcher-1.10.14-win.zip",
+        "size": 98642684,
+        "updated_at": "2025-07-26T08:41:08+00:00",
+        "synced_at": "2025-07-26 08:41:08.680423"
+      },
+      "balenaEtcher-1.10.14-x64.AppImage_96000853": {
+        "name": "balenaEtcher-1.10.14-x64.AppImage",
+        "size": 96000853,
+        "updated_at": "2025-07-26T08:41:14+00:00",
+        "synced_at": "2025-07-26 08:41:14.621728"
+      },
+      "balenaEtcher-1.10.14.dmg_97533551": {
+        "name": "balenaEtcher-1.10.14.dmg",
+        "size": 97533551,
+        "updated_at": "2025-07-26T08:41:20+00:00",
+        "synced_at": "2025-07-26 08:41:20.631181"
+      },
+      "balenaEtcher-1.10.14.dmg.blockmap_103827": {
+        "name": "balenaEtcher-1.10.14.dmg.blockmap",
+        "size": 103827,
+        "updated_at": "2025-07-26T08:41:23+00:00",
+        "synced_at": "2025-07-26 08:41:23.232261"
+      },
+      "balenaEtcher-Portable-1.10.14.exe_129528752": {
+        "name": "balenaEtcher-Portable-1.10.14.exe",
+        "size": 129528752,
+        "updated_at": "2025-07-26T08:41:29+00:00",
+        "synced_at": "2025-07-26 08:41:29.667530"
+      },
+      "balenaEtcher-Setup-1.10.14.exe_145044576": {
+        "name": "balenaEtcher-Setup-1.10.14.exe",
+        "size": 145044576,
+        "updated_at": "2025-07-26T08:41:36+00:00",
+        "synced_at": "2025-07-26 08:41:36.552663"
+      },
+      "balenaEtcher-Setup-1.10.14.exe.blockmap_149950": {
+        "name": "balenaEtcher-Setup-1.10.14.exe.blockmap",
+        "size": 149950,
+        "updated_at": "2025-07-26T08:41:39+00:00",
+        "synced_at": "2025-07-26 08:41:39.170252"
+      },
+      "builder-debug.yml_840": {
+        "name": "builder-debug.yml",
+        "size": 840,
+        "updated_at": "2025-07-26T08:41:41+00:00",
+        "synced_at": "2025-07-26 08:41:41.711294"
+      },
+      "latest-linux.yml_414": {
+        "name": "latest-linux.yml",
+        "size": 414,
+        "updated_at": "2025-07-26T08:41:44+00:00",
+        "synced_at": "2025-07-26 08:41:44.374269"
+      },
+      "latest-mac.yml_371": {
+        "name": "latest-mac.yml",
+        "size": 371,
+        "updated_at": "2025-07-26T08:41:46+00:00",
+        "synced_at": "2025-07-26 08:41:46.970028"
+      },
+      "latest.yml_384": {
+        "name": "latest.yml",
+        "size": 384,
+        "updated_at": "2025-07-26T08:41:49+00:00",
+        "synced_at": "2025-07-26 08:41:49.548669"
+      }
     }
   },
   "source_codes": {
@@ -21995,6 +22085,16 @@
       "SourceCode_v1.10.13.tar.gz": {
         "exists": true,
         "synced_at": "2025-07-26 08:39:45.615539"
+      }
+    },
+    "v1.10.14": {
+      "SourceCode_v1.10.14.zip": {
+        "exists": true,
+        "synced_at": "2025-07-26 08:40:47.812679"
+      },
+      "SourceCode_v1.10.14.tar.gz": {
+        "exists": true,
+        "synced_at": "2025-07-26 08:40:47.838506"
       }
     }
   }
