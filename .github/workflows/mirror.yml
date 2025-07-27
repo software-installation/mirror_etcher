@@ -53,12 +53,4 @@ jobs:
           SOURCE_GITHUB_TOKEN: ${{ secrets.SOURCE_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
         run: |
           python mirror_github_releases.py  # 执行指定的Python文件
-      
-      - name: 提交同步记录
-        if: always()
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add synced_versions.json
-          git commit -m "程序1：更新同步记录" || echo "无更新需要提交"
-          git push
+
